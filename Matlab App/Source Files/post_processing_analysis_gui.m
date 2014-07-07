@@ -66,7 +66,7 @@ for i = 3:(frames-2)
             jrf(i,j)=sqrt(jrf(i,j))/bw;
         end
 
-        if (pat_tendon(i)/(rec_fem(i)+vastus(i)))<2 & (pat_tendon(i)/(rec_fem(i)+vastus(i)))>0
+        if ((pat_tendon(i)/(rec_fem(i)+vastus(i)))<2 & (pat_tendon(i)/(rec_fem(i)+vastus(i)))>0)
             ratio(i)=pat_tendon(i)/(rec_fem(i)+vastus(i));
         end
 
