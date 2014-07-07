@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Lib - Numerical Recipes">
+      <UniqueIdentifier>{e592cc00-cc54-40da-8d6c-e8fdc6abc67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib - Mathematics">
+      <UniqueIdentifier>{161ebc54-9652-4c80-8aef-2db6af1f7d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib - Kinematics">
+      <UniqueIdentifier>{f8ec9905-062b-4548-baf8-3273fa1e7593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\m02 - Create Segments">
+      <UniqueIdentifier>{0c928bfa-d78b-4264-bd9f-9e1c7665a2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib - Data Operations">
+      <UniqueIdentifier>{6bb83c40-3725-447d-b564-374308fc3278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\m01 - Data Input">
+      <UniqueIdentifier>{ae3b34db-a144-4df3-85c4-983c8b3631d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib - Class: Segment">
+      <UniqueIdentifier>{dbf02105-2769-439f-ac82-7e5ae158f92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\m03 - Kinematics">
+      <UniqueIdentifier>{ff461465-5de0-48d0-b674-13a520a4a8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\m04 - Inverse Dynamics">
+      <UniqueIdentifier>{fffa581d-1a31-48e2-8bdb-fe5bdaace02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\m05 - Muscle Model">
+      <UniqueIdentifier>{81edc555-a49f-49c2-90d6-1d7b0e84942c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib - Class: Muscle">
+      <UniqueIdentifier>{54b3de15-ee7b-47e0-b179-9365dd399310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lib - Numerical Recipes">
+      <UniqueIdentifier>{984ee22d-268c-4d84-8d34-a448d8409982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib - Data Operations">
+      <UniqueIdentifier>{889d9071-7d97-4200-bb4b-51bb21e12cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\m01 - Data Input">
+      <UniqueIdentifier>{18c30a6f-a18a-4e68-8073-2006ecf085d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\m02 - Create Segments">
+      <UniqueIdentifier>{ab4605c3-63d5-4671-a454-7b743ee8dc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\m03 - Kinematics">
+      <UniqueIdentifier>{31fdcd62-7913-48d7-b707-cda356eb54f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\m04 - Inverse Dynamics">
+      <UniqueIdentifier>{4d3fbeae-f2d0-47b5-a404-7fdb1803f457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\m05 - Muscle Model">
+      <UniqueIdentifier>{7554bd80-76bc-4e04-acc5-ddd1c6a79761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\m06 - Data Output">
+      <UniqueIdentifier>{9ba61e34-940e-4409-8d19-7431f597bf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\m06 - Data Output">
+      <UniqueIdentifier>{59b13402-8fec-48e6-a2e2-01a5d2eb78a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib - Class: Structure">
+      <UniqueIdentifier>{52dff9d1-319c-4244-84ff-3b9987fb461c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Model v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pythag.cpp">
+      <Filter>Source Files\Lib - Numerical Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="svbksb.cpp">
+      <Filter>Source Files\Lib - Numerical Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="svdcmp.cpp">
+      <Filter>Source Files\Lib - Numerical Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="tqli.cpp">
+      <Filter>Source Files\Lib - Numerical Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="tred2.cpp">
+      <Filter>Source Files\Lib - Numerical Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="math_crossprd.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_deriv.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_mxmply.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_qcon.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_qmply.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_skew_vec_to_matrix.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_trace.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_transpose.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_vecmag.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_vecnorm.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_zeromatrix.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_crossdisp.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_distpnts.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_markcalc.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_qcalc.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_qdot.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_qrotate.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_rmatcalc.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_00_create_segments.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_01_pick_model.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_02_make_lcs.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_03_horsman_landmarks.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_04_input_landmarks.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="io_datainput.cpp">
+      <Filter>Source Files\Lib - Data Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="io_dataoutput.cpp">
+      <Filter>Source Files\Lib - Data Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="io_inop.cpp">
+      <Filter>Source Files\Lib - Data Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="io_outop.cpp">
+      <Filter>Source Files\Lib - Data Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="readdata.cpp">
+      <Filter>Source Files\Lib - Data Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="writedata.cpp">
+      <Filter>Source Files\Lib - Data Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="m01_00_data_input.cpp">
+      <Filter>Source Files\m01 - Data Input</Filter>
+    </ClCompile>
+    <ClCompile Include="m01_01_dans_data_input.cpp">
+      <Filter>Source Files\m01 - Data Input</Filter>
+    </ClCompile>
+    <ClCompile Include="m01_01_mapcoord.cpp">
+      <Filter>Source Files\m01 - Data Input</Filter>
+    </ClCompile>
+    <ClCompile Include="m01_02_dans_calibration_data.cpp">
+      <Filter>Source Files\m01 - Data Input</Filter>
+    </ClCompile>
+    <ClCompile Include="m01_03_save_raw_positions.cpp">
+      <Filter>Source Files\m01 - Data Input</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_accn_point_on_seg.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_alpha.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_calculate_transf_cal_to_gcs.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_calculate_transf_lcs_to_gcs.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_omega.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_origindot.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_origindotdot.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_pos_point_on_seg.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_qdot.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_qdotdot.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_solve_wrench_eqns.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_vel_point_on_seg.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="m03_00_calculate_kinematics.cpp">
+      <Filter>Source Files\m03 - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m03_01_diff_q.cpp">
+      <Filter>Source Files\m03 - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m03_02_calc_angular_quantities.cpp">
+      <Filter>Source Files\m03 - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m03_04_calc_linear_quantities.cpp">
+      <Filter>Source Files\m03 - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m03_05_diff_origin.cpp">
+      <Filter>Source Files\m03 - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m04_00_inverse_dynamics.cpp">
+      <Filter>Source Files\m04 - Inverse Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_00_muscle_model.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_01_pick_muscle_model.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_lcs_to_gcs.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_01_01_initialize_all_muscles.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="m03_00_set_anth.cpp">
+      <Filter>Source Files\m03 - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_00_output_data.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_01_output_kinematics.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_02_output_trad_ida.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="math_det2.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_det3.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_dotprd.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_max.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_qnorm.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math_qnormalise.cpp">
+      <Filter>Source Files\Lib - Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_cardan.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_05_patella_segment.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_04_01_scaling.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_05_01_joint_flexion.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_02_horsman_muscle_model.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_03_output_opt_values.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_07_tf_contact.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_03_patella_ratios.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_03_01_calc_seg_pos_vectors.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_05_02_patella_perf_parameters.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_05_03_patella_contact.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_04_wrap_cylinder.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_rot_to_gcs.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_wrapping.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_04_output_muscle_geometry.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_dist_point_line.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_compare_vec.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_dist_2_lines.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_perp_point_on_line.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_05_output_bony_geometry.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_opt_values_1.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="m05_01_02_initialize_generic_quad.cpp">
+      <Filter>Source Files\m05 - Muscle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="struc_pos_point_in_calib.cpp">
+      <Filter>Source Files\Lib - Class: Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="struc_rot_hors_to_lcs.cpp">
+      <Filter>Source Files\Lib - Class: Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="struc_pos_point_in_lcs.cpp">
+      <Filter>Source Files\Lib - Class: Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure.cpp">
+      <Filter>Source Files\Lib - Class: Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="kin_line_line_intersect.cpp">
+      <Filter>Source Files\Lib - Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="seg_pos_point_in_lcs.cpp">
+      <Filter>Source Files\Lib - Class: Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_upper_bound.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_opt_pt_1.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_length.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_length_change.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="m02_10_define_rotation_centres.cpp">
+      <Filter>Source Files\m02 - Create Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_03_output_opt_values_2.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_opt_values_2.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_03_output_opt_values_3.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_opt_pt_2.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+    <ClCompile Include="m06_03_output_opt_values_4.cpp">
+      <Filter>Source Files\m06 - Data Output</Filter>
+    </ClCompile>
+    <ClCompile Include="mus_opt_values_3.cpp">
+      <Filter>Source Files\Lib - Class: Muscle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Muscle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nr.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrtypes.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrtypes_lib.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrtypes_nr.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrutil.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrutil_mtl.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrutil_nr.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrutil_tnt.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="nrutil_val.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="print_array.h">
+      <Filter>Header Files\Lib - Numerical Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="io_datainput.h">
+      <Filter>Header Files\Lib - Data Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="io_dataoutput.h">
+      <Filter>Header Files\Lib - Data Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="io_inop.h">
+      <Filter>Header Files\Lib - Data Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="io_outop.h">
+      <Filter>Header Files\Lib - Data Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="readdata.h">
+      <Filter>Header Files\Lib - Data Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="writedata.h">
+      <Filter>Header Files\Lib - Data Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="m01_00_data_input.h">
+      <Filter>Header Files\m01 - Data Input</Filter>
+    </ClInclude>
+    <ClInclude Include="m01_01_dans_data_input.h">
+      <Filter>Header Files\m01 - Data Input</Filter>
+    </ClInclude>
+    <ClInclude Include="m01_01_mapcoord.h">
+      <Filter>Header Files\m01 - Data Input</Filter>
+    </ClInclude>
+    <ClInclude Include="m01_02_dans_calibration_data.h">
+      <Filter>Header Files\m01 - Data Input</Filter>
+    </ClInclude>
+    <ClInclude Include="m01_03_save_raw_positions.h">
+      <Filter>Header Files\m01 - Data Input</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_00_create_segments.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_01_pick_model.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_02_make_lcs.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_03_horsman_landmarks.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_04_input_landmarks.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m03_00_calculate_kinematics.h">
+      <Filter>Header Files\m03 - Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="m03_01_diff_q.h">
+      <Filter>Header Files\m03 - Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="m03_02_calc_angular_quantities.h">
+      <Filter>Header Files\m03 - Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="m03_04_calc_linear_quantities.h">
+      <Filter>Header Files\m03 - Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="m03_05_diff_origin.h">
+      <Filter>Header Files\m03 - Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="m04_00_inverse_dynamics.h">
+      <Filter>Header Files\m04 - Inverse Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_00_muscle_model.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_01_pick_muscle_model.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_01_01_initialize_all_muscles.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m03_00_set_anth.h">
+      <Filter>Header Files\m03 - Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_00_output_data.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_01_output_kinematics.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_02_output_trad_ida.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_05_patella_segment.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_04_01_scaling.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_05_01_joint_flexion.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_02_horsman_muscle_model.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_03_output_opt_values.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_07_tf_contact.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_03_01_calc_seg_pos_vectors.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_03_patella_ratios.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_05_02_patella_perf_parameters.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_05_03_patella_contact.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_04_wrap_cylinder.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_04_output_muscle_geometry.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_05_output_bony_geometry.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m05_01_02_initialize_generic_quad.h">
+      <Filter>Header Files\m05 - Muscle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="m02_10_define_rotation_centres.h">
+      <Filter>Header Files\m02 - Create Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_03_output_opt_values_2.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_03_output_opt_values_3.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+    <ClInclude Include="m06_03_output_opt_values_4.h">
+      <Filter>Header Files\m06 - Data Output</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

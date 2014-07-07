@@ -1,0 +1,1 @@
+void m05_01_02_initialize_generic_quad(Muscle *muscle_model[], int frames, Muscle *patella_ratio_av[]);

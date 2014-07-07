@@ -1,0 +1,1 @@
+void m02_10_define_rotation_centres(Segment **segment_data[], Structure *calibrate_pos[], Mat_DP model_structure, int frames, int segments);

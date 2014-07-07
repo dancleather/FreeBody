@@ -1,0 +1,1 @@
+void m05_04_wrap_cylinder(Vec_DP vc, Vec_DP pc, Vec_DP o, Vec_DP ins, double r, Vec_DP &eo, Vec_DP &ei, double direction, double &result);

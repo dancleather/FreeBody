@@ -1,0 +1,2 @@
+void m01_03_save_raw_positions(Mat_DP &raw_data, Segment **segment_data[], int frames, int segments, Vec_DP &marker_segment_info);
+void m01_03_save_raw_positions(Mat_DP &raw_data, Structure *calibrate_pos[], int segments, Vec_DP &marker_segment_info);

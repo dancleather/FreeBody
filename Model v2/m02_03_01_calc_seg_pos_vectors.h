@@ -1,0 +1,1 @@
+void m02_03_01_calc_seg_pos_vectors(Segment **segment_data[], Structure *calibrate_pos[], int frames, int segments);

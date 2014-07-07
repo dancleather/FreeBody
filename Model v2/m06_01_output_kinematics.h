@@ -1,0 +1,1 @@
+void m06_01_output_kinematics(Segment **segment_data[], int frames, int segments);

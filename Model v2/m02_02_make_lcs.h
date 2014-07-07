@@ -1,0 +1,1 @@
+void m02_02_make_lcs(Structure *calibrate_pos[], int segments);

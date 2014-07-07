@@ -1,0 +1,1 @@
+void m03_01_diff_q(Segment **segment_data[], int frames, int segments);

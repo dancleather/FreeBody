@@ -1,0 +1,1 @@
+void m02_05_02_patella_perf_parameters(Segment **segment_data[], int frames, Muscle *patella_ratio_av[]);

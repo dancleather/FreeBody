@@ -1,0 +1,1 @@
+void m03_02_calc_angular_quantities(Segment **segment_data[], int frames, int segments);

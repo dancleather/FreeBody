@@ -1,0 +1,2 @@
+void m02_00_create_segments(Mat_DP &model_structure, Segment **segment_data[], Structure *calibrate_pos[], int frames, int segments,
+							Muscle *patellar_tendon[], Muscle *patella_ratio_av[], double marker_width);

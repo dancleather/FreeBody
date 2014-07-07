@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E550119-C370-44F1-8B51-B9239EAD39EF}</ProjectGuid>
+    <RootNamespace>Modelv2</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.51106.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="kin_cardan.cpp" />
+    <ClCompile Include="kin_compare_vec.cpp" />
+    <ClCompile Include="kin_dist_2_lines.cpp" />
+    <ClCompile Include="kin_dist_point_line.cpp" />
+    <ClCompile Include="kin_line_line_intersect.cpp" />
+    <ClCompile Include="kin_perp_point_on_line.cpp" />
+    <ClCompile Include="m02_04_01_scaling.cpp" />
+    <ClCompile Include="m02_05_02_patella_perf_parameters.cpp" />
+    <ClCompile Include="m02_05_03_patella_contact.cpp" />
+    <ClCompile Include="m02_07_tf_contact.cpp" />
+    <ClCompile Include="m02_10_define_rotation_centres.cpp" />
+    <ClCompile Include="m03_00_set_anth.cpp" />
+    <ClCompile Include="m02_05_01_joint_flexion.cpp" />
+    <ClCompile Include="m02_05_patella_segment.cpp" />
+    <ClCompile Include="m05_01_01_initialize_all_muscles.cpp" />
+    <ClCompile Include="m05_01_02_initialize_generic_quad.cpp" />
+    <ClCompile Include="m05_02_horsman_muscle_model.cpp" />
+    <ClCompile Include="m05_03_patella_ratios.cpp" />
+    <ClCompile Include="m06_03_output_opt_values_2.cpp" />
+    <ClCompile Include="m06_03_output_opt_values_3.cpp" />
+    <ClCompile Include="m06_03_output_opt_values_4.cpp" />
+    <ClCompile Include="m06_04_output_muscle_geometry.cpp" />
+    <ClCompile Include="m06_05_output_bony_geometry.cpp" />
+    <ClCompile Include="mus_length.cpp" />
+    <ClCompile Include="mus_length_change.cpp" />
+    <ClCompile Include="mus_opt_pt_1.cpp" />
+    <ClCompile Include="mus_opt_pt_2.cpp" />
+    <ClCompile Include="mus_opt_values_2.cpp" />
+    <ClCompile Include="mus_opt_values_3.cpp" />
+    <ClCompile Include="mus_upper_bound.cpp" />
+    <ClCompile Include="mus_wrapping.cpp" />
+    <ClCompile Include="m05_04_wrap_cylinder.cpp" />
+    <ClCompile Include="m06_00_output_data.cpp" />
+    <ClCompile Include="m06_01_output_kinematics.cpp" />
+    <ClCompile Include="m06_02_output_trad_ida.cpp" />
+    <ClCompile Include="m06_03_output_opt_values.cpp" />
+    <ClCompile Include="Model v2.cpp" />
+    <ClCompile Include="mus_opt_values_1.cpp" />
+    <ClCompile Include="seg_pos_point_in_lcs.cpp" />
+    <ClCompile Include="seg_rot_to_gcs.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Structure.cpp" />
+    <ClCompile Include="pythag.cpp" />
+    <ClCompile Include="struc_pos_point_in_calib.cpp" />
+    <ClCompile Include="struc_pos_point_in_lcs.cpp" />
+    <ClCompile Include="struc_rot_hors_to_lcs.cpp" />
+    <ClCompile Include="svbksb.cpp" />
+    <ClCompile Include="svdcmp.cpp" />
+    <ClCompile Include="tqli.cpp" />
+    <ClCompile Include="tred2.cpp" />
+    <ClCompile Include="math_det2.cpp" />
+    <ClCompile Include="math_det3.cpp" />
+    <ClCompile Include="math_dotprd.cpp" />
+    <ClCompile Include="math_crossprd.cpp" />
+    <ClCompile Include="math_deriv.cpp" />
+    <ClCompile Include="math_mxmply.cpp" />
+    <ClCompile Include="math_qcon.cpp" />
+    <ClCompile Include="math_qmply.cpp" />
+    <ClCompile Include="math_skew_vec_to_matrix.cpp" />
+    <ClCompile Include="math_trace.cpp" />
+    <ClCompile Include="math_transpose.cpp" />
+    <ClCompile Include="math_vecmag.cpp" />
+    <ClCompile Include="math_vecnorm.cpp" />
+    <ClCompile Include="math_zeromatrix.cpp" />
+    <ClCompile Include="math_max.cpp" />
+    <ClCompile Include="math_qnorm.cpp" />
+    <ClCompile Include="math_qnormalise.cpp" />
+    <ClCompile Include="kin_crossdisp.cpp" />
+    <ClCompile Include="kin_distpnts.cpp" />
+    <ClCompile Include="kin_markcalc.cpp" />
+    <ClCompile Include="kin_qcalc.cpp" />
+    <ClCompile Include="kin_qdot.cpp" />
+    <ClCompile Include="kin_qrotate.cpp" />
+    <ClCompile Include="kin_rmatcalc.cpp" />
+    <ClCompile Include="m02_00_create_segments.cpp" />
+    <ClCompile Include="m02_01_pick_model.cpp" />
+    <ClCompile Include="m02_02_make_lcs.cpp" />
+    <ClCompile Include="m02_03_horsman_landmarks.cpp" />
+    <ClCompile Include="m02_04_input_landmarks.cpp" />
+    <ClCompile Include="io_datainput.cpp" />
+    <ClCompile Include="io_dataoutput.cpp" />
+    <ClCompile Include="io_inop.cpp" />
+    <ClCompile Include="io_outop.cpp" />
+    <ClCompile Include="readdata.cpp" />
+    <ClCompile Include="writedata.cpp" />
+    <ClCompile Include="m01_00_data_input.cpp" />
+    <ClCompile Include="m01_01_dans_data_input.cpp" />
+    <ClCompile Include="m01_01_mapcoord.cpp" />
+    <ClCompile Include="m01_02_dans_calibration_data.cpp" />
+    <ClCompile Include="m01_03_save_raw_positions.cpp" />
+    <ClCompile Include="seg_accn_point_on_seg.cpp" />
+    <ClCompile Include="seg_alpha.cpp" />
+    <ClCompile Include="seg_calculate_transf_cal_to_gcs.cpp" />
+    <ClCompile Include="seg_calculate_transf_lcs_to_gcs.cpp" />
+    <ClCompile Include="seg_omega.cpp" />
+    <ClCompile Include="seg_origindot.cpp" />
+    <ClCompile Include="seg_origindotdot.cpp" />
+    <ClCompile Include="seg_pos_point_on_seg.cpp" />
+    <ClCompile Include="seg_qdot.cpp" />
+    <ClCompile Include="seg_qdotdot.cpp" />
+    <ClCompile Include="seg_solve_wrench_eqns.cpp" />
+    <ClCompile Include="seg_vel_point_on_seg.cpp" />
+    <ClCompile Include="Segment.cpp" />
+    <ClCompile Include="m03_00_calculate_kinematics.cpp" />
+    <ClCompile Include="m03_01_diff_q.cpp" />
+    <ClCompile Include="m03_02_calc_angular_quantities.cpp" />
+    <ClCompile Include="m02_03_01_calc_seg_pos_vectors.cpp" />
+    <ClCompile Include="m03_04_calc_linear_quantities.cpp" />
+    <ClCompile Include="m03_05_diff_origin.cpp" />
+    <ClCompile Include="m04_00_inverse_dynamics.cpp" />
+    <ClCompile Include="m05_00_muscle_model.cpp" />
+    <ClCompile Include="m05_01_pick_muscle_model.cpp" />
+    <ClCompile Include="mus_lcs_to_gcs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kinematics.h" />
+    <ClInclude Include="m02_04_01_scaling.h" />
+    <ClInclude Include="m02_05_02_patella_perf_parameters.h" />
+    <ClInclude Include="m02_05_03_patella_contact.h" />
+    <ClInclude Include="m02_05_patella_segment.h" />
+    <ClInclude Include="m02_07_tf_contact.h" />
+    <ClInclude Include="m02_10_define_rotation_centres.h" />
+    <ClInclude Include="m03_00_set_anth.h" />
+    <ClInclude Include="m02_05_01_joint_flexion.h" />
+    <ClInclude Include="m05_01_01_initialize_all_muscles.h" />
+    <ClInclude Include="m05_01_02_initialize_generic_quad.h" />
+    <ClInclude Include="m05_02_horsman_muscle_model.h" />
+    <ClInclude Include="m05_01_pick_muscle_model.h" />
+    <ClInclude Include="m05_03_patella_ratios.h" />
+    <ClInclude Include="m05_04_wrap_cylinder.h" />
+    <ClInclude Include="m06_00_output_data.h" />
+    <ClInclude Include="m06_01_output_kinematics.h" />
+    <ClInclude Include="m06_02_output_trad_ida.h" />
+    <ClInclude Include="m06_03_output_opt_values.h" />
+    <ClInclude Include="m06_03_output_opt_values_2.h" />
+    <ClInclude Include="m06_03_output_opt_values_3.h" />
+    <ClInclude Include="m06_03_output_opt_values_4.h" />
+    <ClInclude Include="m06_04_output_muscle_geometry.h" />
+    <ClInclude Include="m06_05_output_bony_geometry.h" />
+    <ClInclude Include="mathematics.h" />
+    <ClInclude Include="Muscle.h" />
+    <ClInclude Include="Segment.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Structure.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="nr.h" />
+    <ClInclude Include="nrtypes.h" />
+    <ClInclude Include="nrtypes_lib.h" />
+    <ClInclude Include="nrtypes_nr.h" />
+    <ClInclude Include="nrutil.h" />
+    <ClInclude Include="nrutil_mtl.h" />
+    <ClInclude Include="nrutil_nr.h" />
+    <ClInclude Include="nrutil_tnt.h" />
+    <ClInclude Include="nrutil_val.h" />
+    <ClInclude Include="print_array.h" />
+    <ClInclude Include="io_datainput.h" />
+    <ClInclude Include="io_dataoutput.h" />
+    <ClInclude Include="io_inop.h" />
+    <ClInclude Include="io_outop.h" />
+    <ClInclude Include="readdata.h" />
+    <ClInclude Include="writedata.h" />
+    <ClInclude Include="m01_00_data_input.h" />
+    <ClInclude Include="m01_01_dans_data_input.h" />
+    <ClInclude Include="m01_01_mapcoord.h" />
+    <ClInclude Include="m01_02_dans_calibration_data.h" />
+    <ClInclude Include="m01_03_save_raw_positions.h" />
+    <ClInclude Include="m02_00_create_segments.h" />
+    <ClInclude Include="m02_01_pick_model.h" />
+    <ClInclude Include="m02_02_make_lcs.h" />
+    <ClInclude Include="m02_03_horsman_landmarks.h" />
+    <ClInclude Include="m02_04_input_landmarks.h" />
+    <ClInclude Include="m03_00_calculate_kinematics.h" />
+    <ClInclude Include="m03_01_diff_q.h" />
+    <ClInclude Include="m03_02_calc_angular_quantities.h" />
+    <ClInclude Include="m02_03_01_calc_seg_pos_vectors.h" />
+    <ClInclude Include="m03_04_calc_linear_quantities.h" />
+    <ClInclude Include="m03_05_diff_origin.h" />
+    <ClInclude Include="m04_00_inverse_dynamics.h" />
+    <ClInclude Include="m05_00_muscle_model.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
