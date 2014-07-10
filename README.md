@@ -13,4 +13,4 @@ The folder "Model v2" contains the C++ source files for the Windows application.
 
 The folder "Release" contains the compiled Windows application, the Matlab m files that are run after the Windows application, and the user guide.
 
-The folder "FreeBody Beta" contains a zip file containing the Matlab application.  The folder has a sub folder that contains the Matlab files that are used to build the application.
+The folder "FreeBody Matlab" contains a zip file containing the Matlab application.  The folder has a sub folder that contains the Matlab files that are used to build the application.
