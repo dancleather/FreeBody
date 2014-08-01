@@ -30,7 +30,7 @@ void m06_01_output_kinematics(Segment **segment_data[], int frames, int segments
 		}
 	}
 
-	io_dataoutput("Files/Outputs/optimization_3/joint_angles.txt",joint_angles);
+	io_dataoutput("Files/Outputs/optimization/joint_angles.txt",joint_angles);
 
 
 
