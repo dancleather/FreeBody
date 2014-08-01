@@ -215,9 +215,3 @@ end
 save 'force.txt' force -ASCII;
 sol=solve';
 save 'solve.txt' sol -ASCII;
-
-cd(workingfolder);
-cd('./Files/Outputs');
-
-save 'all_forces.txt' force -ASCII;
-save 'optimization_results.txt' sol -ASCII;
